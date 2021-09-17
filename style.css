@@ -1,0 +1,635 @@
+iframe # tumblr_controls, .iframe-controls - desktop, .tmblr-iframe - app-cta-button, iframe.tmblr-iframe {
+    Mostrar nenhum;
+}
+
+/ * ------------------------------------ * /
+
+corpo {
+    família da fonte: 'Cormorant Garamond', serif;
+    tamanho da fonte: 12px;
+    fundo: #cacaca url ('');
+    tamanho do fundo: capa;
+}
+
+uma {
+    decoração de texto: nenhum;
+    cursor: normal;
+}
+
+b, forte {
+    cor: # 321f4a;
+    peso da fonte: 600;
+}
+
+eu {
+    estilo da fonte: itálico;
+    cor: # 715e38;
+}
+
+/ * ------------------------------------ * /
+
+:: - webkit-scrollbar {
+    altura: 3px;
+    largura: 4px;
+    background: herdar;
+}
+ 
+:: - webkit-scrollbar-thumb {
+    fundo: nenhum;
+}
+ 
+:: - webkit-scrollbar-track {
+    fundo: nenhum;
+}
+
+/ * ------------------------------------ * /
+
+:: - moz-selection {
+    cor: # 484848;
+    fundo: #cacaca;
+}
+   
+:: selection {
+    cor: # 484848;
+    fundo: #cacaca;
+}
+
+/ * ------------------------------------ * /
+
+.david {
+    posição: fixa;
+    inferior: 0px;
+    direita: 0px;
+    plano de fundo: url ('https://i.imgur.com/xT6YmyV.png');
+    tamanho do fundo: capa;
+    transição: .4s com facilidade de entrada e saída;
+    índice z: -1;
+}
+
+.david: hover {
+    filtro: sépia (15%);
+}
+
+@media only screen e (max-device-width: 1920px) e (orientação: paisagem) {
+.david {
+    largura: 800px;
+    altura: 914px;
+}
+}
+
+@media only screen e (max-device-width: 1440px) e (orientação: paisagem) {
+.david {
+    largura: 625px;
+    altura: 714px;
+}
+}
+
+@media only screen e (max-device-width: 1366px) e (orientação: paisagem) {
+.david {
+    largura: 550px;
+    altura: 628px;
+}
+}
+
+@media only screen e (max-device-width: 1280px) e (orientação: paisagem) {
+.david {
+    largura: 525px;
+    altura: 600px;
+}
+}
+
+/ * ------------------------------------ * /
+
+#aparecimento gradual {
+    opacidade: 0;
+    -webkit-animation: fadeIn Easy-in 1;  
+    -moz-animation: fadeIn Easy-in 1;
+    animação: fadeIn Easy-in 1;
+    -webkit-animation-fill-mode: encaminha;  
+    -moz-animation-fill-mode: avança;
+    modo de preenchimento de animação: para a frente;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    duração da animação: 1,5s;
+    -webkit-filter: tons de cinza (100%);
+    -webkit-animation-delay: 0.2s;
+    atraso de animação: 0,2s;
+    -webkit-filter: nenhum;
+}
+
+@ -webkit-keyframes fadeIn {
+    de {opacidade: 0;}
+    para {opacidade: 1;}
+}
+
+@ -moz-keyframes fadeIn {
+    de {opacidade: 0;}
+    para {opacidade: 1;}
+}
+
+@keyframes fadeIn {
+    de {opacidade: 0;} 
+    para {opacidade: 1;}
+}
+
+#grayscale {
+    -webkit-filter: tons de cinza (100%);
+    transição: 0,4s com facilidade de entrada e saída;
+}
+
+#grayscale: hover {
+    -webkit-filter: grayscale (0%);
+}
+
+/ * ------------------------------------ * /
+
+.navegar {
+    cursor: ponteiro;
+    cor: # 1c1c1c;
+    tamanho da fonte: 15px;
+    transformação de texto: maiúsculas;
+    espaçamento entre letras: 2px;
+    transição: 0,4s com facilidade de entrada e saída;
+}
+
+.navegar: hover {
+    cor: # 686868;
+}
+
+.titulo {
+    cursor: padrão;
+    transformação de texto: maiúsculas;
+    espaçamento entre letras: 2px;
+    cor: # 585858;
+}
+
+# barra-inferior {
+    posição: fixa;
+    inferior: 0px;
+    esquerda: 0px;
+    cor de fundo: # c0c0c0;
+    largura: 100%;
+    índice z: 1;
+    opacidade: 0,9;
+}
+
+#conteudo {
+    alinhamento de texto: centro;
+    largura: 500px;
+    posição: relativa;
+    topo: 50%;
+    esquerda: 50%;
+    transformar: traduzir (-50%, - 50%);
+}
+
+@media only screen e (max-device-width: 1920px) e (orientação: paisagem) {
+# barra-inferior {
+    altura: 150px;
+}
+
+.titulo {
+    tamanho da fonte: 25px;
+}
+}
+
+@media only screen e (max-device-width: 1440px) e (orientação: paisagem) {
+# barra-inferior {
+    altura: 115px;
+}
+
+.titulo {
+    tamanho da fonte: 22px;
+}
+}
+
+@media only screen e (max-device-width: 1366px) e (orientação: paisagem) {
+# barra-inferior {
+    altura: 100px;
+}
+
+.titulo {
+    tamanho da fonte: 20px;
+}
+}
+
+@media only screen e (max-device-width: 1280px) e (orientação: paisagem) {
+# barra-inferior {
+    altura: 100px;
+}
+
+.titulo {
+    tamanho da fonte: 18px;
+}
+}
+/ * ------------------------------------ * /
+
+.overlay {
+    altura: 100%;
+    largura: 0%;
+    posição: fixa;
+    índice z: 1! importante;
+    esquerda: 0px;
+    topo: 0px;
+    opacidade: 0;
+    plano de fundo: url ('https://i.imgur.com/ntmYkPQ.jpg');
+    repetição de fundo: sem repetição;
+    overflow-x: oculto;
+    transição: 0,8 s;
+    overflow-y: oculto;
+}
+
+@media only screen e (max-device-width: 1920px) {
+.overlay {
+    tamanho do fundo: 1920px 1080px;
+}
+}
+
+@media only screen e (max-device-width: 1440px) {
+.overlay {
+    tamanho do fundo: 1440px 900px;
+}
+}
+
+@media only screen e (max-device-width: 1366px) {
+.overlay {
+    tamanho do fundo: 1366px 768px;
+}
+}
+
+@media only screen e (max-device-width: 1280px) {
+.overlay {
+    tamanho do fundo: 1280px 768px;
+}
+}
+
+/ * ------------------------------------ * /
+
+.overlay {
+    altura: 100%;
+    largura: 0%;
+    posição: fixa;
+    índice z: 1! importante;
+    esquerda: 0px;
+    topo: 0px;
+    opacidade: 0;
+    plano de fundo: url ('https://i.imgur.com/ntmYkPQ.jpg');
+    repetição de fundo: sem repetição;
+    overflow-x: oculto;
+    transição: 0,8 s;
+    overflow-y: oculto;
+}
+
+@media only screen e (max-device-width: 1920px) e (max-device-height: 1080px) e (orientação: paisagem) {
+.overlay {
+    tamanho do fundo: 1920px 1080px;
+}
+}
+
+@media only screen e (max-device-width: 1440px) e (max-device-height: 900px) e (orientação: paisagem) {
+.overlay {
+    tamanho do fundo: 1440px 900px;
+}
+}
+
+@media only screen e (max-device-width: 1366px) e (max-device-height: 768px) e (orientação: paisagem) {
+.overlay {
+    tamanho do fundo: 1366px 768px;
+}
+}
+
+@media only screen e (max-device-width: 1280px) e (max-device-height: 768px) e (orientação: paisagem) {
+.overlay {
+    tamanho do fundo: 1280px 768px;
+}
+}
+
+/ * ------------------------------------ * /
+
+.conteúdo principal {
+    posição: relativa;
+    largura: calc (100% - 200px);
+    largura máxima: 850px;
+    altura: 100%;
+    topo: 55%;
+    esquerda: 45%;
+    transformar: traduzir (-50%, - 50%);
+}
+
+.close-button {
+    posição: absoluta;
+    topo: 30px;
+    esquerda: 40px;
+    fundo: transparente;
+    cor: # 424242;
+    tamanho da fonte: 60px;
+}
+
+/ * ------------------------------------ * /
+
+.menu principal {
+    topo: 50%;
+    transformar: traduzirY (-50%);
+    índice z: 8! importante;
+    posição: absoluta;
+    largura: 450px;
+}
+ 
+.main-menu a {
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+    espaçamento entre letras: 1px;
+    cor: # 000;
+    display: bloco;
+    fundo: #ccc;
+    preenchimento: 3px 10px;
+    margem: 1px 0px;
+    opacidade: 0,6;
+    transição: 0,6 s totalmente atenuado;
+}
+   
+.main-menu a: hover {
+    cor: # 321f4a;
+} 
+
+@media only screen e (max-device-width: 1920px) e (max-device-height: 1080px) e (orientação: paisagem) {
+.menu principal {
+    margem esquerda: 300px;
+}
+
+.main-menu a {
+    tamanho da fonte: 14px;
+    altura da linha: 30px;
+    altura: 30px;
+    largura: 300px;
+}
+
+.main-menu a: hover {
+    tamanho da fonte: 16px;
+}
+}
+
+@media only screen e (max-device-width: 1440px) e (max-device-height: 900px) e (orientação: paisagem) {
+.menu principal {
+    margem esquerda: 300px;
+}
+
+.main-menu a {
+    tamanho da fonte: 14px;
+    altura da linha: 30px;
+    altura: 30px;
+    largura: 300px;
+}
+
+.main-menu a: hover {
+    tamanho da fonte: 16px;
+}
+}
+
+@media only screen e (max-device-width: 1366px) e (max-device-height: 768px) e (orientação: paisagem) {
+.menu principal {
+    margem esquerda: 350px;
+}
+
+.main-menu a {
+    tamanho da fonte: 12px;
+    altura da linha: 25px;
+    altura: 25px;
+    largura: 250px;
+}
+
+.main-menu a: hover {
+    tamanho da fonte: 14px;
+}
+}
+
+@media only screen e (max-device-width: 1280px) e (max-device-height: 768px) e (orientação: paisagem) {
+.menu principal {
+    margem esquerda: 350px;
+}
+
+.main-menu a {
+    tamanho da fonte: 12px;
+    altura da linha: 25px;
+    altura: 25px;
+    largura: 250px;
+}
+
+.main-menu a: hover {
+    tamanho da fonte: 14px;
+}
+}
+
+/ * ------------------------------------ * /
+    
+.main-menu-2 {
+    topo: 50%;
+    transformar: traduzirY (-50%);
+    índice z: 8! importante;
+    posição: absoluta;
+    margem esquerda: 621px;
+    largura: 520px;
+}
+ 
+.main-menu-2 a {
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+    espaçamento entre letras: 1px;
+    cor: # 000;
+    display: bloco;
+    fundo: #ccc;
+    preenchimento: 3px 10px;
+    margem: 1px 0px;
+    opacidade: 0,6;
+    transição: 0,6 s totalmente atenuado;
+}
+    
+.main-menu-2 a: hover {
+    cor: # 321f4a;
+}
+
+@media only screen e (max-device-width: 1920px) e (max-device-height: 1080px) e (orientação: paisagem) {
+.main-menu-2 a {
+    tamanho da fonte: 14px;
+    altura da linha: 30px;
+    altura: 30px;
+    largura: 300px;
+}
+
+.main-menu-2 a: hover {
+    tamanho da fonte: 16px;
+}
+}
+
+@media only screen e (max-device-width: 1440px) e (max-device-height: 900px) e (orientação: paisagem) {
+.main-menu-2 a {
+    tamanho da fonte: 14px;
+    altura da linha: 30px;
+    altura: 30px;
+    largura: 300px;
+}
+
+.main-menu-2 a: hover {
+    tamanho da fonte: 16px;
+}
+}
+
+@media only screen e (max-device-width: 1366px) e (max-device-height: 768px) e (orientação: paisagem) {
+.main-menu-2 a {
+    tamanho da fonte: 12px;
+    altura da linha: 25px;
+    altura: 25px;
+    largura: 250px;
+}
+
+.main-menu-2 a: hover {
+    tamanho da fonte: 14px;
+}
+}
+
+@media only screen e (max-device-width: 1280px) e (max-device-height: 768px) e (orientação: paisagem) {
+.main-menu-2 a {
+    tamanho da fonte: 12px;
+    altura da linha: 25px;
+    altura: 25px;
+    largura: 250px;
+}
+
+.main-menu-2 a: hover {
+    tamanho da fonte: 14px;
+}
+}
+
+/ * ------------------------------------ * /
+
+.post-grid {
+    altura máxima: 700px;
+    largura máxima: 2000px;
+    posição: fixa;
+    índice z: -1;
+}
+
+#postagem {
+    fundo: transparente;
+    alinhamento de texto: justificar;
+    estouro: automático;
+}
+
+#postagem :: - webkit-scrollbar {
+    altura: 3px;
+    largura: 4px;
+    background: herdar;
+}
+ 
+#postagem :: - webkit-scrollbar-thumb {
+    fundo: nenhum;
+}
+ 
+#postagem :: - webkit-scrollbar-track {
+    fundo: nenhum;
+}
+
+#titulo {
+    família de fontes: 'Playfair Display', serif;
+    estilo da fonte: itálico;
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+    margin-bottom: 10px;
+    cor: # 321f4a;
+    transição: 0,4s com facilidade de entrada e saída;
+}
+
+#titulo :: - moz-selection {
+    cor: # a38955;
+    fundo: transparente;
+}
+   
+#titulo :: selection {
+    cor: # a38955;
+    fundo: transparente;
+}
+
+@media only screen e (max-device-width: 1920px) e (orientação: paisagem) {
+.post-grid {
+    topo: 60px;
+    esquerda: 275px;
+}
+
+#postagem {
+    tamanho da fonte: 19px;
+    altura: 700px;
+    largura: 600px;
+}
+
+#titulo {
+    tamanho da fonte: 60pt;
+}
+}
+
+@media only screen e (max-device-width: 1440px) e (orientação: paisagem) {
+.post-grid {
+    topo: 60px;
+    esquerda: 200px;
+}
+
+#postagem {
+    tamanho da fonte: 16px;
+    altura: 575px;
+    largura: 475px;
+}
+
+#titulo {
+    tamanho da fonte: 42pt;
+}
+}
+
+@media only screen e (max-device-width: 1366px) e (orientação: paisagem) {
+.post-grid {
+    topo: 25px;
+    esquerda: 180px;
+}
+
+#postagem {
+    tamanho da fonte: 16px;
+    altura: 500px;
+    largura: 480px;
+}
+
+#titulo {
+    tamanho da fonte: 44pt;
+}
+}
+
+@media only screen e (max-device-width: 1280px) e (orientação: paisagem) {
+.post-grid {
+    topo: 75px;
+    esquerda: 225px;
+}
+
+#postagem {
+    tamanho da fonte: 14px;
+    altura: 425px;
+    largura: 325px;
+}
+
+#titulo {
+    tamanho da fonte: 38pt;
+}
+}
+
+/ * ------------------------------------ * /
+
+#botao {
+    margem: 0px automático;
+    fundo: #cacaca;
+    altura da linha: 30px;
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+    cor: # 585858;
+    altura: 30px;
+    largura máxima: 300px;
+    transição: 0,6 s totalmente atenuado;
+}
+
+#botao: hover {
+    cor: # 321f4a;
+}
